@@ -81,6 +81,18 @@ export interface Translations {
       description: string;
     }[];
   };
+  antiOkupa: {
+    headline: string;
+    subhead: string;
+    coreMessage: string;
+    legalNote: string;
+    features: {
+      instantAlerts: string;
+      localRecording: string;
+      legalEvidence: string;
+      worksOffline: string;
+    };
+  };
   contact: {
     title: string;
     subtitle: string;
@@ -231,6 +243,18 @@ export const translations: Record<Language, Translations> = {
         },
       ],
     },
+    antiOkupa: {
+      headline: 'The First 48 Hours are Decisive',
+      subhead: 'Anti-Okupa Security',
+      coreMessage: 'Anti-Okupa Security. The law rewards the fast. Get instant alerts and have 4K legal evidence of the break-in ready for the police.',
+      legalNote: 'Local NVR recording provides the legal evidence needed for immediate police intervention. Unlike cloud cams that can be jammed, our system records locally even if the internet is cut.',
+      features: {
+        instantAlerts: 'Instant Alerts',
+        localRecording: 'Local Recording',
+        legalEvidence: '4K Legal Evidence',
+        worksOffline: 'Works Offline',
+      },
+    },
     contact: {
       title: 'Get Your Quote',
       subtitle: 'Tell me about your security needs',
@@ -378,6 +402,18 @@ export const translations: Record<Language, Translations> = {
           description: 'Saber quién entra y sale. La calidad 4K asegura que puedas identificar caras claramente.',
         },
       ],
+    },
+    antiOkupa: {
+      headline: 'Las Primeras 48 Horas son Decisivas',
+      subhead: 'Protección Anti-Okupa',
+      coreMessage: 'Protección definitiva contra Okupas. La ley protege a quien actúa rápido. Reciba alertas al instante y disponga de pruebas legales en 4K.',
+      legalNote: 'La grabación local NVR proporciona la evidencia legal necesaria para la intervención inmediata de la policía. A diferencia de las cámaras en la nube que pueden ser bloqueadas, nuestro sistema graba localmente incluso si se corta el internet.',
+      features: {
+        instantAlerts: 'Alertas Instantáneas',
+        localRecording: 'Grabación Local',
+        legalEvidence: 'Evidencia Legal 4K',
+        worksOffline: 'Funciona Sin Internet',
+      },
     },
     contact: {
       title: 'Obtén tu Cotización',
@@ -527,6 +563,18 @@ export const translations: Record<Language, Translations> = {
         },
       ],
     },
+    antiOkupa: {
+      headline: 'Les Primers 48 Hores són Decisives',
+      subhead: 'Protecció Anti-Okupa',
+      coreMessage: 'Protecció definitiva contra Okupes. La llei protegeix a qui actua ràpid. Rebi alertes a l\'instant i disposi de proves legals en 4K.',
+      legalNote: 'L\'enregistrament local NVR proporciona l\'evidència legal necessària per a la intervenció immediata de la policia. A diferència de les càmeres al núvol que poden ser bloquejades, el nostre sistema enregistra localment fins i tot si es talla l\'internet.',
+      features: {
+        instantAlerts: 'Alertes Instantànies',
+        localRecording: 'Enregistrament Local',
+        legalEvidence: 'Evidència Legal 4K',
+        worksOffline: 'Funciona Sense Internet',
+      },
+    },
     contact: {
       title: 'Obtenir el teu Pressupost',
       subtitle: 'Explica\'m sobre les teves necessitats de seguretat',
@@ -674,6 +722,18 @@ export const translations: Record<Language, Translations> = {
           description: 'Знайте, кто входит и выходит. Качество 4K гарантирует четкую идентификацию лиц.',
         },
       ],
+    },
+    antiOkupa: {
+      headline: 'Первые 48 Часов Решающие',
+      subhead: 'Защита от Окупасов',
+      coreMessage: 'Защита от Окупасов. Закон на стороне тех, кто действует быстро. Получайте уведомления мгновенно и имейте на руках 4K видео взлома для полиции.',
+      legalNote: 'Локальная запись NVR предоставляет необходимые юридические доказательства для немедленного вмешательства полиции. В отличие от облачных камер, которые могут быть заблокированы, наша система записывает локально, даже если интернет отключен.',
+      features: {
+        instantAlerts: 'Мгновенные Уведомления',
+        localRecording: 'Локальная Запись',
+        legalEvidence: '4K Юридические Доказательства',
+        worksOffline: 'Работает Без Интернета',
+      },
     },
     contact: {
       title: 'Получите Расценку',

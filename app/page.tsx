@@ -6,6 +6,7 @@ import WhyMe from '@/components/WhyMe';
 import Truth from '@/components/Truth';
 import InstallationGallery from '@/components/InstallationGallery';
 import UseCases from '@/components/UseCases';
+import AntiOkupa from '@/components/AntiOkupa';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 
@@ -20,6 +21,7 @@ export default function Home() {
       <InstallationGallery />
       <WhyMe />
       <UseCases />
+      <AntiOkupa />
       <ContactForm />
       <Footer />
     </main>
